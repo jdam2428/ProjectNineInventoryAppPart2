@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".EditorActivity">
+
+    <EditText
+        android:id="@+id/edit_book_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="@string/book_title_hint"
+        android:inputType="textCapWords"
+        app:fontFamily="sans-serif-condensed" />
+
+    <EditText
+        android:id="@+id/edit_book_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="@string/book_price_hint"
+        android:inputType="numberDecimal"
+        app:fontFamily="sans-serif-condensed" />
+
+    <EditText
+        android:id="@+id/edit_book_quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="@string/book_quantity_hint"
+        android:inputType="number"
+        app:fontFamily="sans-serif-condensed" />
+
+    <EditText
+        android:id="@+id/edit_book_supplier_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="@string/book_supplier_name_hint"
+        android:inputType="textCapWords"
+        app:fontFamily="sans-serif-condensed" />
+
+    <EditText
+        android:id="@+id/edit_book_supplier_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="@string/book_supplier_phone_number_hint"
+        android:inputType="phone"
+        app:fontFamily="sans-serif-condensed" />
+</LinearLayout>

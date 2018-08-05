@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Name for the application [CHAR LIMIT=20] -->
+    <string name="app_name">Book Store</string>
+
+    <!-- Label for overflow menu option that inserts fake book data into the app [CHAR LIMIT=20] -->
+    <string name="insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all book data in the app [CHAR LIMIT=20] -->
+    <string name="delete_all_entries">Delete All Books</string>
+
+    <!-- Title for the activity to add a new book [CHAR LIMIT=20] -->
+    <string name="editor_activity_add_new_book">Add New Book</string>
+
+    <!-- Label for editor menu option to save book and leave editor [CHAR LIMIT=10] -->
+    <string name="save_button">Save</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=25] -->
+    <string name="book_title_hint">Book title</string>
+
+    <!-- Text hint for price field in the editor [CHAR LIMIT=25] -->
+    <string name="book_price_hint">Price</string>
+
+    <!-- Text hint for quantity field in the editor [CHAR LIMIT=25] -->
+    <string name="book_quantity_hint">Quantity available</string>
+
+    <!-- Text hint for supplier name field in the editor [CHAR LIMIT=25] -->
+    <string name="book_supplier_name_hint">Supplier name</string>
+
+    <!-- Text hint for supplier phone number field [CHAR LIMIT=25] -->
+    <string name="book_supplier_phone_number_hint">Supplier phone number</string>
+</resources>
