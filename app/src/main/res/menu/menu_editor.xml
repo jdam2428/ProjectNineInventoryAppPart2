@@ -5,8 +5,14 @@
     tools:context=".EditorActivity">
 
     <item
-        android:id="@+id/action_save"
+        android:id="@+id/save_book"
         android:icon="@drawable/save_button"
-        android:title="@string/save_button"
+        android:title="@string/action_save"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/delete_book"
+        android:icon="@drawable/delete_button"
+        android:title="@string/action_delete"
         app:showAsAction="always" />
 </menu>

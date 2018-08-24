@@ -6,8 +6,11 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 import com.example.android.projecteightinventoryapp.data.BookContract.BookEntry;
 
+// Referenced from the course app "Pets"
+// Images via https://pixabay.com/en/photos/
+
 /**
- * Database helper for Book Store app.
+ * Database helper for the Book Store app.
  */
 public class BookDbHelper extends SQLiteOpenHelper {
 
@@ -26,7 +29,7 @@ public class BookDbHelper extends SQLiteOpenHelper {
      *
      * @param context of the app
      */
-    public BookDbHelper(Context context) {
+    BookDbHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
 
@@ -42,7 +45,6 @@ public class BookDbHelper extends SQLiteOpenHelper {
                 + BookEntry.COLUMN_PRODUCT_QUANTITY + " INTEGER NOT NULL DEFAULT 0, "
                 + BookEntry.COLUMN_PRODUCT_SUPPLIER_NAME + " TEXT NOT NULL, "
                 + BookEntry.COLUMN_PRODUCT_SUPPLIER_PHONE_NUMBER + " INTEGER NOT NULL);";
-
         db.execSQL(SQL_CREATE_BOOKS_TABLE);
     }
 
